@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: start;
-    gap: 20px;
+    gap: 30px;
     margin-bottom: 50px;
 }
 
@@ -16,7 +16,7 @@
 
 .left-upper {
     display: flex;
-    max-width: 1500px;
+    max-width: 2000px;
     max-height: 300px;
 }
 
@@ -32,7 +32,7 @@
 .left-lower {
     display: flex;
     align-items: start;
-    gap: 20px;
+    gap: 90px;
 }
 
 .ll-left {
@@ -45,14 +45,13 @@
 .ll-right {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 30px;
 }
 
 .ll-right p {
     color: hsl(0, 0%, 48%);
     margin: 0;
-    width: 450px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .ll-right button {
@@ -60,7 +59,7 @@
     justify-content: center;
     align-items: center;
     width: 100px;
-    padding: 8px 63px;
+    padding: 10px 63px;
     white-space: nowrap;
     background-color: hsl(5, 85%, 63%);
     color: white;
@@ -92,7 +91,7 @@
     color: hsl(35, 77%, 62%);
     font-weight: 800;
     font-size: 30px;
-    margin: 0;
+    margin: 10px 0 0 0;
 }
 
 .hydro {
@@ -103,15 +102,16 @@
 .hydro-first {
     font-weight: 800;
     margin-bottom: 0;
+    font-size: 18px;
 }
 
 .hydro-second{
-    width: 320px;
+    font-size: 13px;
 }
 
 hr {
     border: none;
     height: 1px;
     width: 100%;
-    background-color: white;
+    background-color: #6c6c6c;
 }
