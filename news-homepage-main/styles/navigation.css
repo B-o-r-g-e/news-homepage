@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 43vw;
+    gap: 34vw;
     height: 12vh;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .header img{
-    height: 3vh;
+    height: 4vh;
 }
 
 nav {
