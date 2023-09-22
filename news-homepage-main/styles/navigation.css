@@ -1,0 +1,40 @@
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 45vw;
+    height: 12vh;
+}
+
+.header {
+    display: flex;
+}
+
+.header img{
+    height: 3vh;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: hsl(240, 3%, 63%);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
