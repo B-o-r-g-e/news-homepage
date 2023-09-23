@@ -69,6 +69,11 @@
     border: none;
 }
 
+.ll-right button:hover {
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+
 .right {
     display: flex;
 }
@@ -103,6 +108,11 @@
     font-weight: 800;
     margin-bottom: 0;
     font-size: 18px;
+}
+
+.hydro-first:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
 }
 
 .hydro-second{
