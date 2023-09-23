@@ -14,27 +14,31 @@
     height: 4vh;
 }
 
-nav {
+.desktop-menu {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-nav ul{
+.desktop-menu ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-nav ul li {
+.desktop-menu ul li {
     float: left;
 }
 
-nav ul li a {
+.desktop-menu ul li a {
     display: block;
     color: hsl(240, 3%, 63%);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.desktop-menu ul li a:hover {
+    color: hsl(5, 85%, 63%);
 }
