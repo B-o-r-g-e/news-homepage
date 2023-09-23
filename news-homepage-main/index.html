@@ -17,7 +17,9 @@
             <div class="header">
                 <img src="assets/images/logo.svg" alt="">
             </div>
-            <nav>
+
+            <!-- Desktop Menu -->
+            <nav class="desktop-menu">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">New</a></li>
@@ -26,16 +28,34 @@
                     <li><a href="#">Categories</a></li>
                 </ul>
             </nav>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu">
+                <div class="menu-button" onclick="toggleMenu()"><img src="assets/images/icon-menu.svg" alt=""></div>
+                <div class="menu-container" id="menu">
+                    <div class="close-button" onclick="toggleMenu()"><img src="assets/images/icon-menu-close.svg" alt=""></div>
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
+        
         <div class="second">
             <div class="left">
                 <div class="left-upper">
-                    <img src="/news-homepage-main/assets/images/image-web-3-mobile.jpg" alt="">
+                    <img src="/news-homepage-main/assets/images/image-web-3-desktop.jpg" alt="">
                 </div>
                 <div class="left-lower">
                     <div class="ll-left">The Bright Future of Web 3.0?</div>
                     <div class="ll-right">
-                        <p>We dive into the next evolution of the web that <br> claims to put the power of the platforms back <br> into the hands of the people. But is it really <br> fulfilling its promise?</p>
+                        <p>We dive into the next evolution of the web that <br> claims to put the power of the platforms back <br> into the hands of the people.But is it really <br> fulfilling its promise?</p>
                         <button>Read More</button>
                     </div>
                 </div>
@@ -89,5 +109,17 @@
             </div>
         </div>
     </div>
+
+    <!-- JavaScript to toggle the mobile menu -->
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.style.right === "0px") {
+                menu.style.right = "-250px";
+            } else {
+                menu.style.right = "0px";
+            }
+        }
+    </script>
 </body>
 </html>
