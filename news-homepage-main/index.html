@@ -17,7 +17,6 @@
             <div class="header">
                 <img src="assets/images/logo.svg" alt="">
             </div>
-
             <!-- Desktop Menu -->
             <nav class="desktop-menu">
                 <ul>
@@ -29,22 +28,13 @@
                 </ul>
             </nav>
 
-            <!-- Mobile Menu -->
-            <div class="mobile-menu">
-                <div class="menu-button" onclick="toggleMenu()"><img src="assets/images/icon-menu.svg" alt=""></div>
-                <div class="menu-container" id="menu">
-                    <div class="close-button" onclick="toggleMenu()"><img src="assets/images/icon-menu-close.svg" alt=""></div>
-                    <div class="menu-content">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">New</a></li>
-                            <li><a href="#">Popular</a></li>
-                            <li><a href="#">Trending</a></li>
-                            <li><a href="#">Categories</a></li>
-                        </ul>
-                    </div>
+            <!--Mobile Menu -->
+            <nav class="mobile">
+                <div class="hamburger">
+                    <img src="assets/images/icon-menu.svg" alt="">
                 </div>
-            </div>
+            </nav>
+
         </div>
         
         <div class="second">
@@ -52,10 +42,13 @@
                 <div class="left-upper">
                     <img src="/news-homepage-main/assets/images/image-web-3-desktop.jpg" alt="">
                 </div>
+                <div class="second-pics">
+                    <img src="assets/images/image-web-3-mobile.jpg" alt="">
+                </div>
                 <div class="left-lower">
                     <div class="ll-left">The Bright Future of Web 3.0?</div>
                     <div class="ll-right">
-                        <p>We dive into the next evolution of the web that <br> claims to put the power of the platforms back <br> into the hands of the people.But is it really <br> fulfilling its promise?</p>
+                        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.But is it really fulfilling its promise?</p>
                         <button>Read More</button>
                     </div>
                 </div>
@@ -83,7 +76,7 @@
             </div>
         </div>
         <div class="third">
-            <div class="container">
+            <div class="third-container">
                 <img src="assets/images/image-retro-pcs.jpg" alt="">
                 <div class="words-container">
                     <p class="number">01</p>
@@ -91,7 +84,7 @@
                     <p class="Words">What happens when the old PCs are given modern upgrade?</p>
                 </div>
             </div>
-            <div class="container">
+            <div class="third-container">
                 <img src="assets/images/image-top-laptops.jpg" alt="">
                 <div class="words-container">
                     <p class="number">02</p>
@@ -99,7 +92,7 @@
                     <p class="Words">Our best picks for various needs and budgets</p>
                 </div>
             </div>
-            <div class="container">
+            <div class="third-container">
                 <img src="assets/images/image-gaming-growth.jpg" alt="">
                 <div class="words-container">
                     <p class="number">03</p>
@@ -109,17 +102,5 @@
             </div>
         </div>
     </div>
-
-    <!-- JavaScript to toggle the mobile menu -->
-    <script>
-        function toggleMenu() {
-            var menu = document.getElementById("menu");
-            if (menu.style.right === "0px") {
-                menu.style.right = "-250px";
-            } else {
-                menu.style.right = "0px";
-            }
-        }
-    </script>
 </body>
 </html>

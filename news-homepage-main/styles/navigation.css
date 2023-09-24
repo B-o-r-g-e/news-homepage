@@ -1,18 +1,23 @@
 .first {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 34vw;
+    gap: 50%;
     height: 12vh;
+    width: 100%;
 }
 
 .header {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header img{
     height: 4vh;
 }
+
+/* Desktop Menu */
 
 .desktop-menu {
     display: flex;
@@ -21,17 +26,18 @@
 }
 
 .desktop-menu ul{
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-.desktop-menu ul li {
+.desktop-menu li {
     float: left;
 }
 
-.desktop-menu ul li a {
+.desktop-menu li a {
     display: block;
     color: hsl(240, 3%, 63%);
     text-align: center;
@@ -39,6 +45,19 @@
     text-decoration: none;
 }
 
-.desktop-menu ul li a:hover {
+.desktop-menu li a:hover {
     color: hsl(5, 85%, 63%);
+}
+
+
+    /* mobile */
+.mobile {
+    display: none;
+}
+
+
+
+
+@media (min-width: 375px) {
+    
 }
