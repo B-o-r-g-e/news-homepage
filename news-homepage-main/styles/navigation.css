@@ -58,6 +58,16 @@
 
 
 
-@media (min-width: 375px) {
-    
+@media screen and (max-width: 375px) {
+    .first {
+        gap: 85%;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
 }

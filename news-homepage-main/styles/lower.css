@@ -50,3 +50,38 @@
     font-size: 12px;
     line-height: 20px;
 }
+
+
+@media screen and (max-width: 375px) {
+    .third {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .third-container {
+
+    }
+
+    .third-container img {
+        width: 300px;
+        margin-right: 40px;
+    }
+
+    .words-container {
+        width: 100%;
+    }
+
+    .number {
+        font-size: 80px;
+    }
+
+    .Topic {
+        font-size: 50px;
+    }
+
+    .Words {
+        font-size: 28px;
+        width: 550px;
+        line-height: 50px;
+    }
+}
