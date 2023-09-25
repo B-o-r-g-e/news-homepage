@@ -60,7 +60,21 @@
 
 @media screen and (max-width: 375px) {
     .first {
-        gap: 85%;
+        gap: 73%;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .first {
+        gap: 73%;
     }
 
     .desktop-menu {

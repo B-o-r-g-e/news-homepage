@@ -55,7 +55,8 @@
 @media screen and (max-width: 375px) {
     .third {
         flex-direction: column;
-        width: 100%;
+        margin-bottom: 40px;
+        gap: 20px;
     }
 
     .third-container {
@@ -63,25 +64,62 @@
     }
 
     .third-container img {
-        width: 300px;
-        margin-right: 40px;
+        width: 100px;
+        margin-right: 10px;
     }
 
     .words-container {
         width: 100%;
+        gap: 13px;
     }
 
     .number {
-        font-size: 80px;
+        font-size: 40px;
     }
 
     .Topic {
-        font-size: 50px;
+        font-size: 17px;
     }
 
     .Words {
-        font-size: 28px;
-        width: 550px;
-        line-height: 50px;
+        font-size: 14px;
+        width: 100%;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .third {
+        flex-direction: column;
+        margin-bottom: 40px;
+        gap: 20px;
+    }
+
+    .third-container {
+
+    }
+
+    .third-container img {
+        width: 100px;
+        margin-right: 10px;
+    }
+
+    .words-container {
+        width: 100%;
+        gap: 13px;
+    }
+
+    .number {
+        font-size: 40px;
+    }
+
+    .Topic {
+        font-size: 17px;
+    }
+
+    .Words {
+        font-size: 14px;
+        width: 100%;
+        line-height: 20px;
     }
 }

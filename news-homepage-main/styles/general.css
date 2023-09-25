@@ -21,3 +21,9 @@ body {
         width: 90%;
     }
 }
+
+@media screen and (max-width: 810px) {
+    .whole {
+        width: 90%;
+    }
+}
